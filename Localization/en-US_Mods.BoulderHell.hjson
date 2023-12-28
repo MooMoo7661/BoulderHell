@@ -1,0 +1,39 @@
+Items: {
+	WoodenChestBoulder: {
+		DisplayName: Wooden Chest Boulder
+		Tooltip: Leave a nice little surprise for your friends
+	}
+}
+
+Tiles.WoodenChestBoulderTile.MapEntry0: Chest
+Projectiles.WoodenChestBoulderProjectile.DisplayName: Wooden Chest Boulder
+
+Configs: {
+	TimerConfig: {
+		DisplayName: Misc AI Config
+
+		ChestExplosionTimer: {
+			Label: Chest Explosion Timer
+			Tooltip:
+				'''
+				Seconds = Amount / 60
+				Default = 300, which is 5 seconds
+				'''
+		}
+
+		ChestBouldersDropLoot: {
+			Label: Chest Boulders Drop Loot
+			Tooltip: ""
+		}
+
+		ChestBouldersGrief: {
+			Label: Chest Boulders Grief
+			Tooltip: ""
+		}
+
+		ChestBouldersGriefInWater: {
+			Label: Chest Boulders Grief In Water
+			Tooltip: ""
+		}
+	}
+}
